@@ -1,0 +1,28 @@
+[user]
+	name = <Your Name>
+	email = <your>@<email>
+	signingkey = <signKey>
+[gui]
+	recentrepo = C:/projects/<path>
+[core]
+	safecrlf = false
+	autocrlf = false
+	editor = notepad++.exe -multiInst -nosession
+[alias]
+	hist = log --all --graph --decorate --oneline -15
+[merge]
+	tool = p4merge
+[mergetool "p4merge"]
+	path = C:/Program Files/Perforce/p4merge.exe
+[mergetool]
+	prompt = false
+[diff]
+	tool = p4merge
+[difftool "p4merge"]
+	path = C:/Program Files/Perforce/p4merge.exe
+[difftool]
+	prompt = false
+  
+# p4ce
+# n++
+# proxy settings find and update ?
